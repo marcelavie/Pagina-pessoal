@@ -5,29 +5,39 @@
     height: 10%;
     background-color: #e5ded6;
 }
-.row{
-    display: flex;
-    height: 30%;
 
-
-}
-.about{
-    display: flex;
-    width: 60%;
-    height: 275px;
-    background-color: blueviolet;
-}
-.imagem{
-  width: 60%;
-  height: 275px;
-  background-color: aqua;
-}
-.foto{
-
-}
 .habilidades{
     display: flex;
     width: 100%;
     height: 50%;
     background-color: #5c7589;
+}
+.cessao {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+.box-img{
+    float: right;
+    max-width: 200px;
+    max-height: 500px; 
+    width: 100%;
+    height:100%;
+
+}
+.texto {
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Ms Madi', cursive;
+    font-weight: 100;
+    color: #5c7589;
+
+}
+.box-img img {
+    width: 100%;
 }
