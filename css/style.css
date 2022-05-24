@@ -1,0 +1,33 @@
+
+.conexão{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: #e5ded6;
+}
+.row{
+    display: flex;
+    height: 30%;
+
+
+}
+.about{
+    display: flex;
+    width: 60%;
+    height: 275px;
+    background-color: blueviolet;
+}
+.imagem{
+  width: 60%;
+  height: 275px;
+  background-color: aqua;
+}
+.foto{
+
+}
+.habilidades{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-color: #5c7589;
+}
