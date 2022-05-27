@@ -64,6 +64,7 @@ header{
 .texto{
     text-align: justify;
     padding: 24px;
+    font-size: 17px;
     margin: 10px 200px;
 }
 .box{
@@ -92,7 +93,6 @@ h2{
 
 .portfolio{
     width: 100%;
-    height: 100px;
     background-color: #f4f0ed;
 }
 footer{
@@ -101,7 +101,6 @@ footer{
     padding: 40px 0px;
     position: relative;
     padding: 120px;
-   
     color: #fff;
     text-align: center;
 }
@@ -111,6 +110,27 @@ h4{
     font-size: 20px;
 }
 
-/*.redes{
+a{
     color: #f4f0ed;
-}*/
+    text-decoration: none;
+    margin: 15px;
+    font-size: 20px;
+}
+.carrossel{
+    width: 15rem;
+    border-radius: 10px
+}
+.carrossel:hover{
+    opacity: 60%;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.carrossel:active{
+    opacity: 40%;
+}
+.centralizar{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px 60px;
+    
+}
